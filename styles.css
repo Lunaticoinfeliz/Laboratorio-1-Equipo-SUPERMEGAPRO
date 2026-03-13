@@ -1,8 +1,9 @@
 /* =========================================
    1. ESTILOS GLOBALES (Requerido por Rúbrica)
    ========================================= */
-   body {
-    font-family: Arial, sans-serif; /* Tipografía global */
+body {
+    font-family: Arial, sans-serif;
+    /* Tipografía global */
     margin: 0;
     padding: 0;
 }
@@ -14,10 +15,7 @@ header {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     color: white;
     padding: 25px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -32,6 +30,8 @@ footer {
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 }
 
@@ -57,14 +57,14 @@ h2 {
     color: #1a252f;
     border-bottom: 2px solid #bdc3c7;
     padding-bottom: 10px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     font-weight: 600;
 }
 
 h3 {
     font-size: 1.5rem;
     color: #2980b9;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     margin-top: 15px;
 }
@@ -73,12 +73,12 @@ h3 {
     font-size: 2.5rem;
     color: #2c3e50;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-#titulo-integrantes{
+#titulo-integrantes {
     text-align: center;
     margin-top: 40px;
 }
@@ -101,7 +101,7 @@ h3 {
     border-radius: 15px;
     margin: 30px auto;
     max-width: 900px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     border: 2px solid #dee2e6;
 }
 
@@ -109,7 +109,7 @@ h3 {
     color: #495057;
     font-size: 1.8rem;
     margin-top: 20px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .introduccionEquipo p {
@@ -124,10 +124,14 @@ h3 {
    4. ALINEACIÓN HORIZONTAL (Sección Miembros)
    ========================================= */
 #miembros {
-    display: flex;             /* Hace que las tarjetas se pongan de lado */
-    flex-wrap: wrap;          /* Permite que bajen si no hay espacio */
-    justify-content: center;   /* Centra las tarjetas en la pantalla */
-    gap: 20px;                /* Espacio entre tarjetas */
+    display: flex;
+    /* Hace que las tarjetas se pongan de lado */
+    flex-wrap: wrap;
+    /* Permite que bajen si no hay espacio */
+    justify-content: center;
+    /* Centra las tarjetas en la pantalla */
+    gap: 20px;
+    /* Espacio entre tarjetas */
     padding: 40px 20px;
 }
 
@@ -136,12 +140,17 @@ h3 {
    ========================================= */
 .tarjeta-estudiante {
     background-color: #ffffff;
-    border: 1px solid #ced4da;    /* BORDE */
-    padding: 20px;                 /* RELLENO */
-    margin: 10px;                  /* SEPARACIÓN */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* SOMBRA */
+    border: 1px solid #ced4da;
+    /* BORDE */
+    padding: 20px;
+    /* RELLENO */
+    margin: 10px;
+    /* SEPARACIÓN */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* SOMBRA */
     border-radius: 8px;
-    width: 300px;                  /* Ancho fijo para consistencia */
+    width: 300px;
+    /* Ancho fijo para consistencia */
     text-align: center;
 }
 
@@ -149,11 +158,16 @@ h3 {
    6. IMÁGENES (Ajustadas a la tarjeta)
    ========================================= */
 .tarjeta-estudiante img {
-    width: 100%;               /* Se adapta al ancho de la tarjeta */
-    max-width: 200px;          /* Pero no crece más de 200px */
-    height: 200px;             /* Altura fija para que todas sean iguales */
-    object-fit: cover;         /* Evita que la imagen se estire feo */
-    border-radius: 50%;        /* Forma circular */
+    width: 100%;
+    /* Se adapta al ancho de la tarjeta */
+    max-width: 200px;
+    /* Pero no crece más de 200px */
+    height: 200px;
+    /* Altura fija para que todas sean iguales */
+    object-fit: cover;
+    /* Evita que la imagen se estire feo */
+    border-radius: 50%;
+    /* Forma circular */
     border: 4px solid #2980b9;
     margin-bottom: 15px;
 }
@@ -167,7 +181,8 @@ h3 {
 }
 
 .lista-proyectos {
-    text-align: left;         /* Alinea los puntos de la lista a la izquierda */
+    text-align: left;
+    /* Alinea los puntos de la lista a la izquierda */
     font-size: 0.9rem;
 }
 
@@ -179,6 +194,7 @@ h3 {
     margin: 10px;
     text-align: center;
 }
+
 .separacionP {
     margin: 20px;
 }
@@ -192,7 +208,7 @@ h3 {
     background-color: #f8f9fa;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .form-contacto label {
@@ -202,7 +218,8 @@ h3 {
     color: #2c3e50;
 }
 
-.form-contacto input, .form-contacto textarea {
+.form-contacto input,
+.form-contacto textarea {
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 5px;
@@ -210,7 +227,8 @@ h3 {
     font-family: Arial, sans-serif;
 }
 
-.form-contacto input:focus, .form-contacto textarea:focus {
+.form-contacto input:focus,
+.form-contacto textarea:focus {
     outline: none;
     border-color: #2980b9;
     box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
